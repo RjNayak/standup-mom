@@ -23,7 +23,7 @@ class App extends Component {
           <BacklogList/>
           </td>
           <td>
-          <span>IN PROGRESS</span>
+          <span>IN-PROGRESS</span>
           <br/>
 
           </td>
