@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.card{
+  width:280px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 8px, rgba(0, 0, 0, 0.12) 0px 5px 6px !important;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.cardTextContainer{
+  list-style-type: none;
+  text-align: left;
+  padding: 10px !important;
+}
+.cardText{
+  font-size: 14px;
+  margin: 0px;
+  color: blue;
+}
+.cardHeader{
+  background-color: antiquewhite;
+  text-align: left;
+}
+.addform{
+  text-align: left;
+
+}
+table{
+  border: 10px solid #673AB7;
+  width: 100%;
+  height: 100vh;
+}
+td{
+  vertical-align: top;
+  border: 2px solid #673AB7;
+  padding: 10px;
+  width: 25%;
+}
+h2{
+  margin: 5px !important;
+}
+ul{
+  padding-left: 5px !important;
+}
+.cardTextElement {
+  padding: 10px !important;
+}
+.react-autosuggest__suggestions-container {
+  position: absolute;
+  z-index: 1000;
+}
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  width: 250px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.react-autosuggest__input {
+padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%; -webkit-appearance: textfield;
+}
+.react-autosuggest__container {
+  display: inline;
+}
