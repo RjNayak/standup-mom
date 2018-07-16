@@ -1,5 +1,4 @@
 echo "starting compression"
-java -jar yuicompressor-2.4.8.jar src\*.js -o ".js$:_min.js"
 java -jar yuicompressor-2.4.8.jar src\*.css -o ".css$:_min.css"
 copy public\* release\
 copy srcactions\*_min.js release\src\actions
